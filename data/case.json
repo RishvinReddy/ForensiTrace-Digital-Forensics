@@ -1,0 +1,16 @@
+{
+  "case_id": "FT-2026-001",
+  "case_title": "Controlled Endpoint Artifact Correlation Exercise",
+  "institution": "Woxsen University, School of Technology",
+  "student": "Rishvin Reddy",
+  "roll_number": "24WU0103006",
+  "section": "BIC - TIGERS",
+  "programme": "B.Tech Computer Science and Engineering",
+  "specialization": "Blockchain, IoT and Cybersecurity",
+  "subject": "Digital Forensics Laboratory",
+  "faculty": "Asst. Prof. Dr. Rajkumar Kalimuthu",
+  "designation": "Assistant Professor",
+  "case_status": "Synthetic demonstration dataset",
+  "created_at": "2026-10-12",
+  "scenario": "A benign controlled endpoint scenario represented using synthetic records. This is not evidence from an actual execution of the three forensic tools."
+}

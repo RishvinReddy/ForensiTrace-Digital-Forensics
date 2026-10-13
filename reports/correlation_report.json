@@ -1,0 +1,62 @@
+{
+  "case_id": "FT-2026-001",
+  "case_title": "Controlled Endpoint Artifact Correlation Exercise",
+  "dataset_type": "Synthetic demonstration dataset",
+  "record_count": 5,
+  "unique_evidence_ids": 5,
+  "validation": "PASS",
+  "validation_issues": [],
+  "summary": "Synthetic triage, acquisition, and disk-examination records are organized into one case. This is a workflow demonstration, not a finding about a real endpoint.",
+  "findings": [
+    {
+      "evidence_id": "E-001",
+      "source_tool": "CrowdResponse (synthetic example)",
+      "timestamp": "2026-10-12T09:10:00+05:30",
+      "artifact": "Collection record",
+      "observation": "A simulated triage record indicates that collection completed and an output artifact was recorded.",
+      "interpretation": "Demonstrates the evidence-record structure; does not establish that a real system was examined.",
+      "confidence": "Demonstration only",
+      "hash_status": "Not applicable"
+    },
+    {
+      "evidence_id": "E-002",
+      "source_tool": "FTK Imager (synthetic example)",
+      "timestamp": "2026-10-12T09:20:00+05:30",
+      "artifact": "endpoint_image.E01",
+      "observation": "A simulated acquisition record reports a hash and successful verification.",
+      "interpretation": "Shows expected reporting fields only; no real disk image or FTK verification was performed.",
+      "confidence": "Demonstration only",
+      "hash_status": "Synthetic; not independently verified"
+    },
+    {
+      "evidence_id": "E-003",
+      "source_tool": "Autopsy (synthetic example)",
+      "timestamp": "2026-10-12T09:30:00+05:30",
+      "artifact": "ForensicLab/DFIR_TEST_2026_01.txt",
+      "observation": "A simulated analysis record reports a benign marker file in an evidence image.",
+      "interpretation": "Demonstrates documenting a known test artifact; not a real Autopsy finding.",
+      "confidence": "Demonstration only",
+      "hash_status": "Not computed from real evidence"
+    },
+    {
+      "evidence_id": "E-004",
+      "source_tool": "Autopsy (synthetic example)",
+      "timestamp": "2026-10-12T09:31:00+05:30",
+      "artifact": "File metadata",
+      "observation": "A simulated record includes a file timestamp and file-type classification.",
+      "interpretation": "Such metadata may support a timeline but requires validation and timezone context.",
+      "confidence": "Demonstration only",
+      "hash_status": "Not applicable"
+    },
+    {
+      "evidence_id": "E-005",
+      "source_tool": "Cross-tool correlation (synthetic example)",
+      "timestamp": "2026-10-12T09:35:00+05:30",
+      "artifact": "Scenario marker correlation",
+      "observation": "Synthetic triage, acquisition, and examination records are consistent with the documented benign test scenario.",
+      "interpretation": "The prototype links records in one case; it does not establish a real incident.",
+      "confidence": "Demonstration only",
+      "hash_status": "Not applicable"
+    }
+  ]
+}

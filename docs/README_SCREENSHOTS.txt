@@ -1,0 +1,1 @@
+Four screenshots in the report are generated illustrations of the ForensiTrace prototype: case overview, evidence inventory, validation results, and report preview. They are not screenshots of FTK Imager, CrowdResponse, or Autopsy and are labelled as synthetic to avoid misrepresenting tool execution.\n
