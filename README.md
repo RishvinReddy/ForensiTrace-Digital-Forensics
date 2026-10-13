@@ -50,7 +50,8 @@
 | Section | `BIC - TIGERS` |
 | Programme | B.Tech Computer Science and Engineering |
 | Specialization | Blockchain, IoT and Cybersecurity |
-| Faculty | Asst. Prof. Dr. Rajkumar Kalimuthu |
+| Faculty | Dr. Rajkumar Kalimuthu |
+| Designation | Associate Professor & Head of the Department (HoD) |
 | Implementation | Python 3, JSON, CSV, unit tests, LaTeX report |
 | Third-party Python packages | None required for the current prototype |
 | Dataset | Synthetic demonstration data only |
@@ -389,7 +390,8 @@ These are proposed enhancements, not claims about current functionality.
 **Programme:** B.Tech Computer Science and Engineering  
 **Specialization:** Blockchain, IoT and Cybersecurity  
 **Subject:** Digital Forensics Laboratory  
-**Faculty:** Asst. Prof. Dr. Rajkumar Kalimuthu  
+**Faculty:** Dr. Rajkumar Kalimuthu  
+**Designation:** Associate Professor & Head of the Department (HoD)  
 **Institution:** Woxsen University, School of Technology
 
 ---
